@@ -5,5 +5,9 @@ public class OperasiString {
         String City = "Inverness";
 
         System.out.println(City);
+
+        char[] Warwickchar = {'W','A','R','W','I','C','K'};
+        String WarwickString = new String(Warwickchar);
+        System.out.println(WarwickString);
     }
 }
