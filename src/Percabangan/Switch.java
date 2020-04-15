@@ -2,22 +2,29 @@ package Percabangan;
 
 public class Switch {
     public static void main (String[] args) {
-        int IvyLeague=3;
-        switch(IvyLeague){
-            case 1:
-                System.out.println("Yale University");
+        char Nilai='D';
+        switch(Nilai){
+            case 'A':
+                System.out.println("Mhs :\"terima kasih pak\"");
+                System.out.println("Dosen : \"Selamat ya\"");
                 break;
-            case 2:
-                System.out.println("Harvard University");
+            case 'B':
+                System.out.println("Mhs :\"Kenapa Saya Tidak Dapat A\"");
+                System.out.println("Dosen : \"Belajar yang rajin lagi\"");
                 break;
-            case 3:
-                System.out.println("Standford University");
+            case 'C':
+                System.out.println("Mhs :\"Saya Sering Masuk Dan Ngumpul Tugas\"");
+                System.out.println("Dosen : \"Tapi Bisa Ngerjawab Ujian Ga?\"");
+                System.out.println("Mhs :\"Tentu Saja\"");
                 break;
-            case 4:
-                System.out.println("Princeton University");
             default:
-                System.out.println("Uniska");
+                System.out.println("Mhs :\"Saya Sering Masuk Dan Ngumpul Tugas\"");
+                System.out.println("Dosen : \"Yakin Kamu?\"");
+                System.out.println("Dosen : \"Periksa Berkas\"");
+                System.out.println("Dosen : \"I Got You Kid\"");
+                System.out.println("Mhs :\"Kabur\"");
                 break;
+
         }
     }
 }
